@@ -82,10 +82,4 @@ public class LargePrint{
 		if (c2 != cc2) list[5] = 1;
 		return list;
 	}
-	public static void main(String[] args) throws IOException {
-		Scanner sc = new Scanner(System.in);
-		setDigits();
-		System.out.println("prompt");
-		printTime(sc.nextInt(), sc.nextInt(), sc.nextInt());
-	}
 }
