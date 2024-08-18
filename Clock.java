@@ -4,6 +4,7 @@ import java.io.*;
 public class Clock{
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the hour, minute, and second, separated by spaces (it prints in 24-hour military time): ");
 		int hour = sc.nextInt(), minute = sc.nextInt(), second = sc.nextInt();
 		long curr = System.nanoTime();
 		LargePrint.setDigits();
